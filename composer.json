@@ -1,20 +1,16 @@
 {
   "name": "aspera/xlsx-reader",
   "description": "Spreadsheet reader library for XLSX files",
-  "keywords": ["spreadsheet", "xlsx", "excel"],
-  "homepage": "https://github.com/AsperaGmbH/xlsx-reader/",
+  "keywords": ["spreadsheet", "xlsx", "excel", "ooxml"],
+  "homepage": "https://github.com/rfischer42/xlsx-reader/",
   "type": "library",
   "license": ["MIT"],
   "authors": [
     {
-      "name": "USU GmbH",
-      "email": "info@usu.com",
-      "homepage": "https://www.usu.com/"
+      "name": "René Fischer",
+      "email": "rfischer42@proton.me"
     }
   ],
-  "support": {
-    "email": "info@usu.com"
-  },
   "require": {
     "php": ">= 8.1",
     "ext-zip": "*",
