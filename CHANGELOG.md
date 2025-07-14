@@ -1,4 +1,23 @@
-### v.1.0.0   2022-07-26
+### v.2.0.1  2025-07-14
+**Summary:**
+- New maintainer; No functional changes.
+
+### v.2.0.0  2025-03-06
+**Summary:**
+- Full support for PHP 8.4
+- Improved error handling
+
+**Breaking changes:**
+- Dropped support for PHP 8.0 and older
+
+### v.1.1.0  2023-03-15
+**Summary:**
+- Full support for PHP 8.2.
+- New ReaderConfiguration property: $xml_reader_flags (settable via setXmlReaderFlags()); Will be given to any usage of XMLReader, allowing declaration of libxml constants such as LIBXML_PARSEHUGE.
+- Added dependency to ext-libxml in composer.json. (Was already required before, but wasn't explicitly noted as such.)
+- Fixed issues with system date/time format specifications in XLSX file.
+
+### v.1.0.0  2022-07-26
 **Summary:**
 - Minimum supported PHP version increased from 5.6 to 7.1.
 - Full support for PHP 8.1.
