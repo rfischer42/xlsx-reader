@@ -1,5 +1,6 @@
 .DS_Store
 .idea
+.phpunit.cache
 external
 vendor
 composer.phar
