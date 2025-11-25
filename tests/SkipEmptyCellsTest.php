@@ -57,16 +57,16 @@ class SkipEmptyCellsTest extends PHPUnitTestCase
     {
         return array(
             'SKIP_NONE' => array(
-                'skipEmptyCells' => ReaderSkipConfiguration::SKIP_NONE,
-                'numTotalCols'   => [8, 0, 4]
+                'skip_empty_cells' => ReaderSkipConfiguration::SKIP_NONE,
+                'exp_num_cols'   => [8, 0, 4]
             ),
             'SKIP_EMPTY' => array(
-                'skipEmptyCells' => ReaderSkipConfiguration::SKIP_EMPTY,
-                'numTotalCols'   => [5, 0, 1]
+                'skip_empty_cells' => ReaderSkipConfiguration::SKIP_EMPTY,
+                'exp_num_cols'   => [5, 0, 1]
             ),
             'SKIP_TRAILING_EMPTY' => array(
-                'skipEmptyCells' => ReaderSkipConfiguration::SKIP_TRAILING_EMPTY,
-                'numTotalCols'   => [8, 0, 2]
+                'skip_empty_cells' => ReaderSkipConfiguration::SKIP_TRAILING_EMPTY,
+                'exp_num_cols'   => [8, 0, 2]
             )
         );
     }
