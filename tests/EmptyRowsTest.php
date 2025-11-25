@@ -42,7 +42,7 @@ class EmptyRowsTest extends TestCase
         );
     }
 
-    public function dataProviderCellContent(): array
+    public static function dataProviderCellContent(): array
     {
         return array(
             'SKIP_NONE'           => array(

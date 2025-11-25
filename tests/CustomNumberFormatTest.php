@@ -33,7 +33,7 @@ class CustomNumberFormatTest extends TestCase
         );
     }
 
-    public function provideValuesForGeneralFormat(): array
+    public static function provideValuesForGeneralFormat(): array
     {
         return array(
             'number'         => array('123', '123'),
@@ -66,7 +66,7 @@ class CustomNumberFormatTest extends TestCase
         );
     }
 
-    public function provideFormats(): array
+    public static function provideFormats(): array
     {
         // Note that language info ( [$€-THIS_RANDOM_INTEGER_RIGHT_HERE] ) is always ignored.
         return array(

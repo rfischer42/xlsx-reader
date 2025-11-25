@@ -18,7 +18,7 @@ class CellFormatConfigTest extends TestCase
     /**
      * @throws Exception
      */
-    public function dataProviderForFormatConfiguration(): array
+    public static function dataProviderForFormatConfiguration(): array
     {
         $return_base = array('', '08-20-17', '22:30', '8/20/17 22:30', '25.50%', '0.50%');
 

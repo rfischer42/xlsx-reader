@@ -53,7 +53,7 @@ class XmlReaderOptionsTest extends TestCase
         );
     }
 
-    public function dataForTestCellContent(): array
+    public static function dataForTestCellContent(): array
     {
         return array(
             array(0, true),
