@@ -224,7 +224,6 @@ class SharedStringsTest extends TestCase
     {
         $reflection = new ReflectionClass(get_class($target_object));
         $internal_property = $reflection->getProperty($target_property_name);
-        $internal_property->setAccessible(true);
         return $internal_property->getValue($target_object);
     }
 }
